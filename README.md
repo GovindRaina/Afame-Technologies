@@ -14,6 +14,7 @@ Best-Selling Products Identification: Identify products that generate the most r
 Additional Insights: Provide insights into sales by region and category.
 
 Dataset
+
 The dataset used for this project is stored in an Excel file named ECOMM_DATA.xlsx. It contains the following columns:
 
 Order Date
@@ -27,6 +28,7 @@ Product Name
 Postal Code (with missing values)
 
 Prerequisites
+
 To run the analysis and visualizations, you need the following Python libraries:
 
 pandas
