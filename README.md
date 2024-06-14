@@ -1,14 +1,18 @@
 # Afame-Technologies
 
 Sales Data Analysis Project
+
 Overview
+
 This project aims to analyze sales data to find patterns, best-selling items, and revenue indicators to assist in business decision-making. The analysis includes computing total sales, examining sales trends over time, identifying best-selling products, and creating visualizations to present the insights.
 
 Goals
+
 Total Sales Calculation: Determine the overall revenue.
 Sales Trends Analysis: Observe sales trends over different time periods (daily, weekly, monthly, quarterly, yearly).
 Best-Selling Products Identification: Identify products that generate the most revenue and those sold in the highest quantities.
 Additional Insights: Provide insights into sales by region and category.
+
 Dataset
 The dataset used for this project is stored in an Excel file named ECOMM_DATA.xlsx. It contains the following columns:
 
@@ -21,16 +25,17 @@ Category
 Sub-Category
 Product Name
 Postal Code (with missing values)
+
 Prerequisites
 To run the analysis and visualizations, you need the following Python libraries:
 
 pandas
 matplotlib
 seaborn
-You can install these libraries using pip:
 
 
 Analysis Steps
+
 1. Data Loading and Cleaning
 Load the dataset from the Excel file.
 Convert Order Date and Ship Date columns to datetime format.
