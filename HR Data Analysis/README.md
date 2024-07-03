@@ -1,7 +1,9 @@
 HR Data Cleansing Project
+
 This project focuses on cleaning and preprocessing an HR dataset to make it suitable for further analysis and modeling. The dataset contains various attributes related to employees, such as demographic information, job roles, and performance metrics.
 
 Dataset
+
 The dataset, HR Data.csv, includes information on:
 
 Employee demographics (e.g., age, gender)
