@@ -1,32 +1,36 @@
+#Afame Technologies
 
-Sure! Here’s an overview-focused README for your GitHub repository:
+Sales Data Analysis Project
 
-HR Data Cleansing Project
-This project focuses on cleaning and preprocessing an HR dataset to make it suitable for further analysis and modeling. The dataset contains various attributes related to employees, such as demographic information, job roles, and performance metrics.
+Overview
+
+This project aims to analyze sales data to find patterns, best-selling items, and revenue indicators to assist in business decision-making. The analysis includes computing total sales, examining sales trends over time, identifying best-selling products, and creating visualizations to present the insights.
+
+Goals
+
+Total Sales Calculation: Determine the overall revenue. Sales Trends Analysis: Observe sales trends over different time periods (daily, weekly, monthly, quarterly, yearly). Best-Selling Products Identification: Identify products that generate the most revenue and those sold in the highest quantities. Additional Insights: Provide insights into sales by region and category.
 
 Dataset
-The dataset, HR Data.csv, includes information on:
 
-Employee demographics (e.g., age, gender)
-Job details (e.g., department, job role, job level)
-Compensation (e.g., daily rate, monthly income)
-Performance and satisfaction metrics (e.g., job satisfaction, performance rating)
-Work-life balance indicators (e.g., work-life balance, overtime)
-Data Cleansing Steps
-The cleansing process involves the following steps:
+The dataset used for this project is stored in an Excel file named ECOMM_DATA.xlsx. It contains the following columns:
 
-Loading the Dataset: Importing the dataset for processing.
-Trimming Whitespace: Removing leading and trailing whitespace from string columns to ensure consistency.
-Converting Data Types: Changing specific columns to appropriate data types, such as converting columns to categorical types.
-Handling NaN Values: Removing rows with any missing values to ensure a clean dataset.
-Renaming Columns: Renaming columns for clarity and consistency.
-Removing Unnecessary Columns: Dropping columns that are constant or deemed unnecessary to simplify the dataset.
-Usage
-Clone the Repository: Download the project files from GitHub.
-Install Dependencies: Ensure you have the necessary libraries installed (e.g., pandas).
-Run the Script/Notebook: Execute the data cleansing steps as outlined to process the dataset.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+Order Date Ship Date Sales Quantity Region Category Sub-Category Product Name Postal Code (with missing values)
 
-Contributing
-Contributions are welcome! If you have any suggestions or improvements, please feel free to submit a Pull Request.
+Prerequisites
+
+To run the analysis and visualizations, you need the following Python libraries:
+
+pandas matplotlib seaborn
+
+Analysis Steps
+
+Data Loading and Cleaning Load the dataset from the Excel file. Convert Order Date and Ship Date columns to datetime format. Handle missing values in the Postal Code column.
+Calculations and Grouping Calculate total sales and total quantity sold. Group sales data by different time periods (daily, weekly, monthly, quarterly, yearly).
+Visualizations Total Sales Over Time Create a line chart to show total sales over time.
+Sales Trends by Month and Year Create line charts to display sales trends by month and year.
+
+Best-Selling Products by Revenue and Quantity Create bar charts to highlight the top products by revenue and quantity.
+
+Sales by Region Create a pie chart to show sales distribution by region with an explode effect for better visualization.
+
+Sales by Category and Sub-Category Create a stacked bar chart to show sales contributions of each sub-category within the main categories.
